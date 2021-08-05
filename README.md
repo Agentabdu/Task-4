@@ -9,6 +9,7 @@ Using SLAM map to launch the navigation
 ### 1- Launch Simulation world (using code below)
 
 -choose Models: burger, waffle, waffle_pi-
+
 export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
