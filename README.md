@@ -22,7 +22,7 @@ export TURTLEBOT3_MODEL=waffle
 $ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
 
-### 3- Estimate initial Pose
+### 3- Estimate initial Pose (Teleco)
 
 Up at Menu-bar; there is a button "2D Pose Estimate", click it
 then go to map in RViz and click on the location where the robot in simulation that you have in Gazebo window,
@@ -37,7 +37,7 @@ Move the robot around to draw the map more accurately
 by the time you finish navigating it, press (CTRL + C) to terminate the keyboard teleoperation node.
 
 
-### 4- Set Navigation Goal
+### 4- Set Navigation Goal (Navigate)
 
 Up at Menu-bar; there is a button "2D Nav Goal", click it
 
